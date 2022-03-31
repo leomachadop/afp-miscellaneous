@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T00:25:09.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="15.8.7" etag="KozV_iQMzG-b61uT0HzU" type="github"><diagram id="AlsPhAGThO_CidDxLo9U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T14:19:20.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="dC8OC5QsOnfxSHK7Jhp-" version="17.1.2" type="github">
+  <diagram id="AlsPhAGThO_CidDxLo9U" name="Page-1">
+    <mxGraphModel dx="1220" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="191.5" width="210" height="225.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="870" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-3" value="Listener" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-1" target="kzmaMJomO8Q30E2j1fqQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-1" value="s3-file-storage" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-2" target="kzmaMJomO8Q30E2j1fqQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-2" value="lambda-read-parser" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="115" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-15" value="afp-stock-exchange-topic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-8" target="kzmaMJomO8Q30E2j1fqQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-28" value="afp-crypto-topic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-8" target="kzmaMJomO8Q30E2j1fqQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-29" value="afp-financial-planning-topic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-8" target="kzmaMJomO8Q30E2j1fqQ-25">
+          <mxGeometry x="0.4843" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-31" value="afp-...-topic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-8" target="kzmaMJomO8Q30E2j1fqQ-27">
+          <mxGeometry x="0.5937" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="656" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-8" value="mks-event-router" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.msk_amazon_msk_connect;" vertex="1" parent="1">
+          <mxGeometry x="360" y="113.41" width="64" height="63.18" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-14" target="kzmaMJomO8Q30E2j1fqQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-14" value="Amazon EKS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.eks;" vertex="1" parent="1">
+          <mxGeometry x="680" y="103.5" width="60" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-16" value="AWS Fargate" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.fargate;" vertex="1" parent="1">
+          <mxGeometry x="810" y="98.5" width="60" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-19" target="kzmaMJomO8Q30E2j1fqQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-19" value="afp-stock-exchange" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="72.5" width="230" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-20" target="kzmaMJomO8Q30E2j1fqQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-20" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;stock-exchange-db&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="104.5" width="62" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-24" target="kzmaMJomO8Q30E2j1fqQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-24" value="afp-crypto" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-25" target="kzmaMJomO8Q30E2j1fqQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-25" value="afp-&lt;span&gt;financial planning&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-27" value="afp-...&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="580" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-32" target="kzmaMJomO8Q30E2j1fqQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-32" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;crypto-db&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="270" width="62" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-34" target="kzmaMJomO8Q30E2j1fqQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-34" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;financial-planning-db&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="449.5" width="62" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kzmaMJomO8Q30E2j1fqQ-36" target="kzmaMJomO8Q30E2j1fqQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-36" value="kinesis-lake" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.kinesis;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="264.5" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="kzmaMJomO8Q30E2j1fqQ-42" value="Learning to draw this architecture and components for autonomous analysis." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="261" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
